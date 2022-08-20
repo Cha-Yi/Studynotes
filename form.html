@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        #form1{
+            width: 70%;
+            height:500px;
+            border: 1px solid black;
+            background-color: darkorange;
+            margin: auto;
+            display: flex;
+            align-content: space-around;
+            flex-wrap: wrap;
+            justify-content: space-around
+        }
+        #mA{
+            width: 50%;
+            height: 300px;
+            background-color: #ff00ff;
+            border: 1px solid black;
+            /*display: flex;*/
+            text-align: center;
+            /*align-items: center;*/
+            /*justify-content: space-evenly;*/
+        }
+        input{
+            width: 400px;
+            height: 40px;
+            background-color: red;
+            border: 1Px solid #989898;
+            margin: 50px 0 0 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="form1">
+    <form method="post" action="f.php" id="mA">
+        <input type="text" name="user_acc" placeholder="请入账号" required="required">账号<br>
+        <input type="password" name="pwd" placeholder="请输入密码">密码<br>
+<!--        <input type="submit" ></input>-->
+    </form>
+</div>
+</body>
+</html>
